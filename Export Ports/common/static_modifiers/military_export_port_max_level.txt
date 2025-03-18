@@ -1,0 +1,14 @@
+state_building_military_export_port_max_level_add = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    state_building_military_export_port_max_level_add = 1
+}
+
+state_building_agricultural_export_port_max_level_add = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    state_building_agricultural_export_port_max_level_add = 1
+}
+
+state_building_manufactured_export_port_max_level_add = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    state_building_manufactured_export_port_max_level_add = 1
+}

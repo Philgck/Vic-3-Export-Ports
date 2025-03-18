@@ -1,0 +1,113 @@
+############ GOVERNMENT BUILDINGS
+building_port = {
+	building_group = bg_public_infrastructure
+	city_type = port
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
+
+	has_max_level = yes
+	ignore_stateregion_max_level = yes
+	port = yes
+
+	unlocking_technologies = { navigation }
+
+	production_method_groups = {
+		pmg_base_building_port
+	}
+
+	required_construction = construction_cost_medium
+
+	terrain_manipulator = urban_port
+	
+	potential = {
+		is_coastal = yes
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_military_export_port = {
+	building_group = bg_urban_facilities
+	city_type = port
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
+
+	has_max_level = yes
+
+	unlocking_technologies = { navigation }
+
+	production_method_groups = {
+		pmg_base_building_export_port_military_basic
+		pmg_base_building_export_port_military_rifles
+		pmg_base_building_export_port_military_artillery
+		pmg_base_building_export_port_military_ammunition
+		pmg_base_building_export_port_military_tanks
+		pmg_base_building_export_port_military_aeroplanes
+		pmg_base_building_export_port_military_manowars
+		pmg_base_building_export_port_military_ironclads
+		
+	}
+
+	required_construction = construction_cost_medium
+	potential = {
+		is_coastal = yes
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_agricultural_export_port = {
+	building_group = bg_urban_facilities
+	city_type = port
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
+
+	has_max_level = yes
+
+	unlocking_technologies = { navigation }
+
+	production_method_groups = {
+		pmg_base_building_export_port_agricultural_basic
+		pmg_base_building_export_port_agricultural_opium
+		pmg_base_building_export_port_agricultural_wine
+		pmg_base_building_export_port_agricultural_tea
+		pmg_base_building_export_port_agricultural_tobacco
+		pmg_base_building_export_port_agricultural_sugar
+		pmg_base_building_export_port_agricultural_fruit
+		pmg_base_building_export_port_agricultural_coffee
+		pmg_base_building_export_port_agricultural_meat
+	}
+
+	required_construction = construction_cost_medium
+	potential = {
+		is_coastal = yes
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_manufactured_export_port = {
+	building_group = bg_urban_facilities
+	city_type = port
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
+
+	has_max_level = yes
+
+	unlocking_technologies = { navigation }
+
+	production_method_groups = {
+		pmg_base_building_export_port_manufactured_basic
+		pmg_base_building_export_port_manufactured_luxury_clothes
+		pmg_base_building_export_port_manufactured_luxury_furniture
+		pmg_base_building_export_port_manufactured_porcelain
+		pmg_base_building_export_port_manufactured_liquor
+		pmg_base_building_export_port_manufactured_automobiles
+		pmg_base_building_export_port_manufactured_telephones
+		pmg_base_building_export_port_manufactured_radios
+
+	}
+
+	required_construction = construction_cost_medium
+	potential = {
+		is_coastal = yes
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

@@ -1,0 +1,804 @@
+# No exports
+
+pm_export_nothing_rifles = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_artillery = {
+	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_ammunition = {
+	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_tanks = {
+	texture = "gfx/interface/icons/goods_icons/tanks.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+pm_export_nothing_ironclads = {
+	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+
+# Military rifles, 500 profit.
+pm_export_anchorage_military_rifles = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_small_arms_add = 5 # 300 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military rifles, 1000 profit.
+pm_export_basic_port_military_rifles = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	
+	unlocking_technologies = {
+		rifling
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_small_arms_add = 50 # 3000 cost
+			goods_output_exported_goods_add = 40 # 4000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military rifles, 3300 profit.
+pm_export_industrial_port_military_rifles = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_small_arms_add = 100 # 6000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 90 # 9000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military rifles, 5000 profit.
+pm_export_modern_port_military_rifles = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_small_arms_add = 150 # 9000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 159 # 12900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military Artillery, 550 profit.
+pm_export_anchorage_military_artillery = {
+	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+	unlocking_technologies = {
+		artillery
+	}
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_artillery_add  = 5 # 350 cost
+			goods_output_exported_goods_add = 9 # 900 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military Artillery, 1100 profit.
+pm_export_basic_port_military_artillery = {
+	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+	unlocking_technologies = {
+		shell_gun
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_artillery_add = 50 # 3500 cost
+			goods_output_exported_goods_add = 46 # 4500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military Artillery, 3600 profit.
+pm_export_industrial_port_military_artillery = {
+	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_artillery_add = 100 # 7000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 113 # 11300 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military Artillery, 5500 profit.
+pm_export_modern_port_military_artillery = {
+	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_artillery_add = 150 # 10500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 179 # 17900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+# Military ammunition, 550 profit.
+pm_export_anchorage_military_ammunition = {
+	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+	unlocking_technologies = {
+		percussion_cap
+	}
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_ammunition_add = 5 # 250 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military ammunition, 1100 profit.
+pm_export_basic_port_military_ammunition = {
+	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+	unlocking_technologies = {
+		percussion_cap
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ammunition_add = 50 # 2500 cost
+			goods_output_exported_goods_add = 31 # 3100 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military ammunition, 3300 profit.
+pm_export_industrial_port_military_ammunition = {
+	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ammunition_add = 100 # 5000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 80 # 9000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military ammunition, 5500 profit.
+pm_export_modern_port_military_ammunition = {
+	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ammunition_add = 150 # 7500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 137 # 13700 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+# Military tanks, 600 profit.
+pm_export_anchorage_military_tanks = {
+	texture = "gfx/interface/icons/goods_icons/tanks.dds"
+	unlocking_technologies = {
+		mobile_armor
+	}
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tanks_add = 5 # 400 cost
+			goods_output_exported_goods_add = 10 # 1000 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military tanks, 1100 profit.
+pm_export_basic_port_military_tanks = {
+	texture = "gfx/interface/icons/goods_icons/tanks.dds"
+	unlocking_technologies = {
+		mobile_armor
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tanks_add = 50 # 4000 cost
+			goods_output_exported_goods_add = 51 # 5100 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military tanks, 3500 profit.
+pm_export_industrial_port_military_tanks = {
+	texture = "gfx/interface/icons/goods_icons/tanks.dds"
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tanks_add = 100 # 8000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 122 # 12200 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military tanks, 5500 profit.
+pm_export_modern_port_military_tanks = {
+	texture = "gfx/interface/icons/goods_icons/tanks.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tanks_add = 150 # 12000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 194 # 19400 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+# Military aeroplanes, 600 profit.
+pm_export_anchorage_military_aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	unlocking_technologies = {
+		military_aviation
+	}
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_aeroplanes_add = 5 # 400 cost
+			goods_output_exported_goods_add = 10 # 1000 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military aeroplanes, 1100 profit.
+pm_export_basic_port_military_aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	unlocking_technologies = {
+		military_aviation
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_aeroplanes_add = 50 # 4000 cost
+			goods_output_exported_goods_add = 51 # 5100 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military aeroplanes, 3500 profit.
+pm_export_industrial_port_military_aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_aeroplanes_add = 100 # 8000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 122 # 12200 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military aeroplanes, 5500 profit.
+pm_export_modern_port_military_aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_aeroplanes_add = 150 # 12000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 194 # 19400 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military Manowars, 550 profit.
+pm_export_anchorage_military_manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_manowars_add  = 5 # 350 cost
+			goods_output_exported_goods_add = 9 # 900 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military Manowars, 1100 profit.
+pm_export_basic_port_military_manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_manowars_add = 50 # 3500 cost
+			goods_output_exported_goods_add = 46 # 4500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military Manowars, 3600 profit.
+pm_export_industrial_port_military_manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_manowars_add = 100 # 7000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 113 # 11300 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military Manowars, 5500 profit.
+pm_export_modern_port_military_manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_manowars_add = 150 # 10500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 179 # 17900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+# Military ironclads, 600 profit.
+pm_export_anchorage_military_ironclads = {
+	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
+	unlocking_technologies = {
+		ironclad_tech
+	}
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_ironclads_add = 5 # 400 cost
+			goods_output_exported_goods_add = 10 # 1000 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 50
+		}
+	}
+}			
+# Military ironclads, 1100 profit.
+pm_export_basic_port_military_ironclads = {
+	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
+	unlocking_technologies = {
+		ironclad_tech
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ironclads_add = 50 # 4000 cost
+			goods_output_exported_goods_add = 51 # 5100 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}		
+# Military ironclads, 3500 profit.
+pm_export_industrial_port_military_ironclads = {
+	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ironclads_add = 100 # 8000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 122 # 12200 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+# Military ironclads, 5500 profit.
+pm_export_modern_port_military_ironclads = {
+	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_ironclads_add = 150 # 12000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 194 # 19400 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+			building_employment_soldiers_add = 1000
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+# Military basic export, 500 profit.
+pm_export_anchorage_military_basic = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_clippers_add = 5 # 300 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Military basic, 2000 profit.
+pm_export_basic_port_military_basic = {
+	texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_clippers_add = 50 # 3000 cost
+			goods_output_exported_goods_add = 40 # 4000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Military basic, 4300 profit.
+pm_export_industrial_port_military_basic = {
+	texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_steamers_add = 100 # 7000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 110 # 12000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Military basic, 6000 profit.
+pm_export_modern_port_military_basic = {
+	texture = "gfx/interface/icons/production_method_icons/modern_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_steamers_add = 150 # 10500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_output_exported_goods_add = 160 # 16000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}

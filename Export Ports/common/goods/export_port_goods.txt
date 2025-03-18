@@ -1,0 +1,16 @@
+merchant_shipping = {
+	texture = "gfx/interface/icons/goods_icons/clippers.dds"
+	cost = 30
+	category = industrial
+	tradeable = no
+	prestige_factor = 1
+}
+
+exported_goods = {
+	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	cost = 100
+	category = industrial
+	tradeable = no
+	fixed_price = yes
+	prestige_factor = 1
+}

@@ -1,0 +1,114 @@
+pmg_base_building_export_port_agricultural_opium = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_opium
+		pm_export_anchorage_agricultural_opium
+		pm_export_basic_port_agricultural_opium
+		pm_export_industrial_port_agricultural_opium
+		pm_export_modern_port_agricultural_opium
+	}
+}
+
+pmg_base_building_export_port_agricultural_wine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_wine
+		pm_export_anchorage_agricultural_wine
+		pm_export_basic_port_agricultural_wine
+		pm_export_industrial_port_agricultural_wine
+		pm_export_modern_port_agricultural_wine
+	}
+}
+
+pmg_base_building_export_port_agricultural_tea = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_tea
+		pm_export_anchorage_agricultural_tea
+		pm_export_basic_port_agricultural_tea
+		pm_export_industrial_port_agricultural_tea
+		pm_export_modern_port_agricultural_tea
+	}
+}
+
+pmg_base_building_export_port_agricultural_tobacco = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_tobacco
+		pm_export_anchorage_agricultural_tobacco
+		pm_export_basic_port_agricultural_tobacco
+		pm_export_industrial_port_agricultural_tobacco
+		pm_export_modern_port_agricultural_tobacco
+	}
+}
+pmg_base_building_export_port_agricultural_sugar = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_sugar
+		pm_export_anchorage_agricultural_sugar
+		pm_export_basic_port_agricultural_sugar
+		pm_export_industrial_port_agricultural_sugar
+		pm_export_modern_port_agricultural_sugar
+	}
+}
+pmg_base_building_export_port_agricultural_fruit = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_fruit
+		pm_export_anchorage_agricultural_sugar
+		pm_export_basic_port_agricultural_fruit
+		pm_export_industrial_port_agricultural_fruit
+		pm_export_modern_port_agricultural_fruit
+	}
+}
+
+pmg_base_building_export_port_agricultural_coffee = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_coffee
+		pm_export_anchorage_agricultural_coffee
+		pm_export_basic_port_agricultural_coffee
+		pm_export_industrial_port_agricultural_coffee
+		pm_export_modern_port_agricultural_coffee
+	}
+}
+
+pmg_base_building_export_port_agricultural_meat = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_nothing_meat
+		pm_export_anchorage_agricultural_meat
+		pm_export_basic_port_agricultural_meat
+		pm_export_industrial_port_agricultural_meat
+		pm_export_modern_port_agricultural_meat
+	}
+}
+
+pmg_base_building_export_port_agricultural_basic = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_anchorage_agricultural_basic
+		pm_export_basic_port_agricultural_basic
+		pm_export_industrial_port_agricultural_basic
+		pm_export_modern_port_agricultural_basic
+	}
+}
+
