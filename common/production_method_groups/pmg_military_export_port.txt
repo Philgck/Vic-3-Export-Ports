@@ -1,0 +1,109 @@
+# Title: Export Port
+# Note: Production methods for export ports
+pmg_base_building_export_port_military_rifles = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_rifles
+		pm_export_basic_port_military_rifles
+		pm_export_industrial_port_military_rifles
+		pm_export_modern_port_military_rifles
+	}
+}
+
+pmg_base_building_export_port_military_artillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_artillery
+		pm_export_basic_port_military_artillery
+		pm_export_industrial_port_military_artillery
+		pm_export_modern_port_military_artillery
+	}
+}
+
+pmg_base_building_export_port_military_ammunition = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_ammunition
+		pm_export_basic_port_military_ammunition
+		pm_export_industrial_port_military_ammunition
+		pm_export_modern_port_military_ammunition
+	}
+}
+
+pmg_base_building_export_port_military_tanks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_tanks
+		pm_export_basic_port_military_tanks
+		pm_export_industrial_port_military_tanks
+		pm_export_modern_port_military_tanks
+	}
+}
+
+pmg_base_building_export_port_military_aeroplanes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_aeroplanes
+		pm_export_basic_port_military_aeroplanes
+		pm_export_industrial_port_military_aeroplanes
+		pm_export_modern_port_military_aeroplanes
+	}
+}
+
+pmg_base_building_export_port_military_aeroplanes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_aeroplanes
+		pm_export_basic_port_military_aeroplanes
+		pm_export_industrial_port_military_aeroplanes
+		pm_export_modern_port_military_aeroplanes
+	}
+}
+
+pmg_base_building_export_port_military_manowars = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_manowars
+		pm_export_basic_port_military_manowars
+		pm_export_industrial_port_military_manowars
+		pm_export_modern_port_military_manowars
+	}
+}
+
+pmg_base_building_export_port_military_ironclads = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_export_nothing_ironclads
+		pm_export_basic_port_military_ironclads
+		pm_export_industrial_port_military_ironclads
+		pm_export_modern_port_military_ironclads
+	}
+}
+
+pmg_base_building_export_port_military_basic = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+
+	production_methods = {
+		pm_export_anchorage_military_basic
+		pm_export_basic_port_military_basic
+		pm_export_industrial_port_military_basic
+		pm_export_modern_port_military_basic
+	}
+}

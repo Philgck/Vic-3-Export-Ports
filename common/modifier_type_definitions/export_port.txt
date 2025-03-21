@@ -1,0 +1,89 @@
+goods_input_merchant_shipping_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_furniture_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_clothes_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_porcelain_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_tea_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_coffee_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_wine_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_merchant_shipping_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_exported_goods_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_military_export_port_max_level_add = {
+	decimals = 0
+	color = good
+	percent = no
+}
+
+state_building_agricultural_export_port_max_level_add = {
+	decimals = 0
+	color = good
+	percent = no
+}
+
+state_building_manufactured_export_port_max_level_add = {
+	decimals = 0
+	color = good
+	percent = no
+}

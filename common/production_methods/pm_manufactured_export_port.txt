@@ -1,0 +1,723 @@
+pm_export_nothing_radios = {
+  texture = "gfx/interface/icons/goods_icons/radios.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured radios, 550 profit.
+pm_export_anchorage_manufactured_radios = {
+    texture = "gfx/interface/icons/goods_icons/radios.dds"
+    unlocking_technologies = {
+        radio
+    }
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_radios_add = 5 # 250 cost
+            goods_output_exported_goods_add = 8 # 800 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}			
+# Manufactured radios, 1000 profit.
+pm_export_basic_port_manufactured_radios = {
+    texture = "gfx/interface/icons/goods_icons/radios.dds"
+    unlocking_technologies = {
+        radio
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_radios_add = 50 # 2500 cost
+            goods_output_exported_goods_add = 35 # 3500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}		
+# Manufactured radios, 3300 profit.
+pm_export_industrial_port_manufactured_radios = {
+    texture = "gfx/interface/icons/goods_icons/radios.dds"
+
+    unlocking_technologies = {
+        radio
+    }
+
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_radios_add = 100 # 8000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 120 # 9000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured radios, 5000 profit.
+pm_export_modern_port_manufactured_radios = {
+    texture = "gfx/interface/icons/goods_icons/radios.dds"
+    unlocking_technologies = {
+        radio
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_radios_add = 150 # 14000 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 220 # 22000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_porcelain = {
+    texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+
+# Manufactured porcelain, 550 profit.
+pm_export_anchorage_manufactured_porcelain = {
+    texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_porcelain_add = 5 # 350 cost
+            goods_output_exported_goods_add = 10 # 1000 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}			
+# Manufactured porcelain, 1000 profit.
+pm_export_basic_port_manufactured_porcelain = {
+    texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_porcelain_add = 50 # 3500 cost
+            goods_output_exported_goods_add = 45 # 4500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}		
+# Manufactured porcelain, 3300 profit.
+pm_export_industrial_port_manufactured_porcelain = {
+    texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+
+    unlocking_technologies = {
+        gantry_cranes
+    }
+
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_porcelain_add = 100 # 7000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 95 # 9500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured porcelain, 5000 profit.
+pm_export_modern_port_manufactured_porcelain = {
+    texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+    unlocking_technologies = {
+        concrete_dockyards
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_porcelain_add = 150 # 10500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 170 # 14900 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_liquor = {
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured liquor, 550 profit.
+pm_export_anchorage_manufactured_liquor = {
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_liquor_add = 5 # 150 cost
+            goods_output_exported_goods_add = 5 # 500 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}			
+# Manufactured liquor, 1000 profit.
+pm_export_basic_port_manufactured_liquor = {
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_liquor_add = 50 # 1500 cost
+            goods_output_exported_goods_add = 15 # 3500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}		
+# Manufactured liquor, 3300 profit.
+pm_export_industrial_port_manufactured_liquor = {
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+
+    unlocking_technologies = {
+        gantry_cranes
+    }
+
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_liquor_add = 100 # 3000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 65 # 6500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured liquor, 5000 profit.
+pm_export_modern_port_manufactured_liquor = {
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+    unlocking_technologies = {
+        concrete_dockyards
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_liquor_add = 150 # 4500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 100 # 10000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_automobiles = {
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured automobiles, 550 profit.
+pm_export_anchorage_manufactured_automobiles = {
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    unlocking_technologies = {
+        combustion_engine
+    }
+    
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_automobiles_add = 5 # 500 cost
+            goods_output_exported_goods_add = 10 # 1000 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}			
+# Manufactured automobiles, 1000 profit.
+pm_export_basic_port_manufactured_automobiles = {
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    unlocking_technologies = {
+        combustion_engine
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_automobiles_add = 50 # 5000 cost
+            goods_output_exported_goods_add = 70 # 7000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}		
+# Manufactured automobiles, 13300 profit.
+pm_export_industrial_port_manufactured_automobiles = {
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    unlocking_technologies = {
+        combustion_engine
+    }
+
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_automobiles_add = 100 # 10000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 240 # 30000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured automobiles, 15000 profit.
+pm_export_modern_port_manufactured_automobiles = {
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    unlocking_technologies = {
+        combustion_engine
+    }
+
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_automobiles_add = 150 # 15000 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 320 # 22000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_telephones = {
+    texture = "gfx/interface/icons/goods_icons/telephones.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured telephones, 550 profit.
+pm_export_anchorage_manufactured_telephones = {
+    texture = "gfx/interface/icons/goods_icons/telephones.dds"
+    unlocking_technologies = {
+        telephone
+    }
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_telephones_add = 5 # 350 cost
+            goods_output_exported_goods_add = 8 # 800 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}			
+# Manufactured telephones, 1000 profit.
+pm_export_basic_port_manufactured_telephones = {
+    texture = "gfx/interface/icons/goods_icons/telephones.dds"
+    unlocking_technologies = {
+        telephone
+    }
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_telephones_add = 50 # 3500 cost
+            goods_output_exported_goods_add = 50 # 5000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}		
+# Manufactured telephones, 3300 profit.
+pm_export_industrial_port_manufactured_telephones = {
+    texture = "gfx/interface/icons/goods_icons/telephones.dds"
+    unlocking_technologies = {
+        telephone
+    }
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_telephones_add = 100 # 7000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 110 # 11000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured telephones, 5100 profit.
+pm_export_modern_port_manufactured_telephones = {
+    texture = "gfx/interface/icons/goods_icons/telephones.dds"
+    unlocking_technologies = {
+        telephone
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {	
+            goods_input_telephones_add = 150 # 10500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 180 # 18000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_luxury_clothes = {
+    texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured luxury clothes, 550 profit.
+pm_export_anchorage_manufactured_luxury_clothes = {    
+    texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_luxury_clothes_add = 5 # 250 cost
+            goods_output_exported_goods_add = 10 # 800 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+        }
+    }
+}
+# Manufactured luxury clothes, 1000 profit.
+pm_export_basic_port_manufactured_luxury_clothes = {
+    texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_clothes_add = 50 # 2500 cost
+            goods_output_exported_goods_add = 40 # 3500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}        
+# Manufactured luxury clothes, 3300 profit.
+pm_export_industrial_port_manufactured_luxury_clothes = {
+    texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+
+    unlocking_technologies = {
+        gantry_cranes
+    }
+
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_clothes_add = 100 # 5000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 100 # 9000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured luxury clothes, 5000 profit.
+pm_export_modern_port_manufactured_luxury_clothes = {
+    texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+    unlocking_technologies = {
+        concrete_dockyards
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_clothes_add = 150 # 7500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 160 # 14900 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+pm_export_nothing_luxury_furniture = {
+    texture = "gfx/interface/icons/goods_icons/luxury_furniture.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_exported_goods_add = 0 # 0 cost
+        }
+    }
+}
+# Manufactured luxury furniture, 550 profit.
+pm_export_anchorage_manufactured_luxury_furniture = {
+    texture = "gfx/interface/icons/goods_icons/luxury_furniture.dds"
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_luxury_furniture_add = 5 # 250 cost
+            goods_output_exported_goods_add = 10 # 800 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+        }
+    }
+}            
+# Manufactured luxury furniture, 1000 profit.
+pm_export_basic_port_manufactured_luxury_furniture = {
+    texture = "gfx/interface/icons/goods_icons/luxury_furniture.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_furniture_add = 50 # 2500 cost
+            goods_output_exported_goods_add = 40 # 3500 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}        
+# Manufactured luxury furniture, 3300 profit.
+pm_export_industrial_port_manufactured_luxury_furniture = {
+    texture = "gfx/interface/icons/goods_icons/luxury_furniture.dds"
+
+    unlocking_technologies = {
+        gantry_cranes
+    }
+
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_furniture_add = 100 # 5000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 100 # 9000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+# Manufactured luxury furniture, 5000 profit.
+pm_export_modern_port_manufactured_luxury_furniture = {
+    texture = "gfx/interface/icons/goods_icons/luxury_furniture.dds"
+    unlocking_technologies = {
+        concrete_dockyards
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_luxury_furniture_add = 150 # 7500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_input_steamers_add = 10 # 700 cost
+            goods_output_exported_goods_add = 160 # 14900 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+        }
+    }
+}
+
+# Manufactured basic export, 500 profit.
+pm_export_anchorage_manufactured_basic = {
+    texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+    
+    low_pop_method = yes # AI will activate this method for states with low population
+    
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_clippers_add = 5 # 300 cost
+            goods_output_exported_goods_add = 8 # 800 cost
+            building_employment_laborers_add = 500
+            building_employment_clerks_add = 350
+            building_employment_bureaucrats_add = 150
+
+        }
+    }
+}
+
+# Manufactured basic, 2000 profit.
+pm_export_basic_port_manufactured_basic = {
+    texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
+    disallowing_laws = {
+        law_isolationism
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_clippers_add = 50 # 3000 cost
+            goods_output_exported_goods_add = 40 # 4000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_clerks_add = 1500
+            building_employment_bureaucrats_add = 500
+
+        }
+    }
+}
+        
+# Manufactured basic, 4300 profit.
+pm_export_industrial_port_manufactured_basic = {
+    texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
+    disallowing_laws = {
+        law_isolationism
+    }
+
+    unlocking_technologies = {
+        gantry_cranes
+    }
+
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_steamers_add = 100 # 7000 cost
+            goods_input_tools_add = 10 # 400 cost
+            goods_input_coal_add = 10 # 300 cost
+            goods_output_exported_goods_add = 110 # 12000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 500
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+
+        }
+    }
+}
+
+# Manufactured basic, 6000 profit.
+pm_export_modern_port_manufactured_basic = {
+    texture = "gfx/interface/icons/production_method_icons/modern_port.dds"
+    disallowing_laws = {
+        law_isolationism
+    }
+    unlocking_technologies = {
+        concrete_dockyards
+    }
+    
+    building_modifiers = {
+        workforce_scaled = {    
+            goods_input_steamers_add = 150 # 10500 cost
+            goods_input_tools_add = 20 # 800 cost
+            goods_input_oil_add = 10 # 400 cost
+            goods_output_exported_goods_add = 160 # 16000 cost
+        }
+        level_scaled = {
+            building_employment_laborers_add = 4000
+            building_employment_machinists_add = 1000
+            building_employment_clerks_add = 1000
+            building_employment_bureaucrats_add = 500
+
+        }
+    }
+}

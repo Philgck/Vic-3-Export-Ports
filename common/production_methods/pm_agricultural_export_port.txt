@@ -1,0 +1,930 @@
+pm_export_nothing_opium = {
+	texture = "gfx/interface/icons/goods_icons/opium.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+# Agricultural opium, 550 profit.
+pm_export_anchorage_agricultural_opium = {
+	texture = "gfx/interface/icons/goods_icons/opium.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_opium_add = 5 # 250 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}			
+# Agricultural opium, 2000 profit.
+pm_export_basic_port_agricultural_opium = {
+	texture = "gfx/interface/icons/goods_icons/opium.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_opium_add = 50 # 2500 cost
+			goods_output_exported_goods_add = 45 # 3500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}		
+# Agricultural opium, 4300 profit.
+pm_export_industrial_port_agricultural_opium = {
+	texture = "gfx/interface/icons/goods_icons/opium.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_opium_add = 100 # 5000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 100 # 10000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+# Agricultural opium, 6000 profit.
+pm_export_modern_port_agricultural_opium = {
+	texture = "gfx/interface/icons/goods_icons/opium.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_opium_add = 150 # 7500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 159 # 14900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_wine = {
+	texture = "gfx/interface/icons/goods_icons/wine.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural wine, 550 profit.
+pm_export_anchorage_agricultural_wine = {
+	texture = "gfx/interface/icons/goods_icons/wine.dds"
+	
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wine_add = 5 # 250 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural wine, 2000 profit.
+pm_export_basic_port_agricultural_wine = {
+	texture = "gfx/interface/icons/goods_icons/wine.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_wine_add = 50 # 2500 cost
+			goods_output_exported_goods_add = 45 # 3500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural wine, 4300 profit.
+pm_export_industrial_port_agricultural_wine = {
+	texture = "gfx/interface/icons/goods_icons/wine.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_wine_add = 100 # 5000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 100 # 10000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural wine, 6000 profit.
+pm_export_modern_port_agricultural_wine = {
+	texture = "gfx/interface/icons/goods_icons/wine.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_wine_add = 150 # 7500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 159 # 14900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+pm_export_nothing_tea = {
+	texture = "gfx/interface/icons/goods_icons/tea.dds"
+	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural tea, 550 profit.
+pm_export_anchorage_agricultural_tea = {
+	texture = "gfx/interface/icons/goods_icons/tea.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tea_add = 5 # 250 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural tea, 2000 profit.
+pm_export_basic_port_agricultural_tea = {
+	texture = "gfx/interface/icons/goods_icons/tea.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tea_add = 50 # 2500 cost
+			goods_output_exported_goods_add = 45 # 3500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural tea, 4300 profit.
+pm_export_industrial_port_agricultural_tea = {
+	texture = "gfx/interface/icons/goods_icons/tea.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tea_add = 100 # 5000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 100 # 9000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural tea, 6000 profit.
+pm_export_modern_port_agricultural_tea = {
+	texture = "gfx/interface/icons/goods_icons/tea.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tea_add = 150 # 7500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 159 # 14900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_coffee = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural coffee, 550 profit.
+pm_export_anchorage_agricultural_coffee = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coffee_add = 5 # 250 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural coffee, 2000 profit.
+pm_export_basic_port_agricultural_coffee = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_coffee_add = 50 # 2500 cost
+			goods_output_exported_goods_add = 45 # 3500 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural coffee, 4300 profit.
+pm_export_industrial_port_agricultural_coffee = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_coffee_add = 100 # 5000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 100 # 10000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural coffee, 6000 profit.
+pm_export_modern_port_agricultural_coffee = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_coffee_add = 150 # 7500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 159 # 14900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_tobacco = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural tobacco, 500 profit.
+pm_export_anchorage_agricultural_tobacco = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tobacco_add = 5 # 200 cost
+			goods_output_exported_goods_add = 7 # 700 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural tobacco, 2000 profit.
+pm_export_basic_port_agricultural_tobacco = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tobacco_add = 50 # 2000 cost
+			goods_output_exported_goods_add = 40 # 4000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural tobacco, 4300 profit.
+pm_export_industrial_port_agricultural_tobacco = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tobacco_add = 100 # 4000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 90 # 8000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural tobacco, 6000 profit.
+pm_export_modern_port_agricultural_tobacco = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_tobacco_add = 150 # 6000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 139 # 12900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_fruit = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural fruit, 500 profit.
+pm_export_anchorage_agricultural_fruit = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 5 # 200 cost
+			goods_output_exported_goods_add = 7 # 700 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural fruit, 2000 profit.
+pm_export_basic_port_agricultural_fruit = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_fruit_add = 50 # 2000 cost
+			goods_output_exported_goods_add = 40 # 3000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural fruit, 4300 profit.
+pm_export_industrial_port_agricultural_fruit = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_fruit_add = 100 # 4000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 90 # 8000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural fruit, 6000 profit.
+pm_export_modern_port_agricultural_fruit = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_fruit_add = 150 # 6000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 139 # 13900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_sugar = {
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural sugar, 500 profit.
+pm_export_anchorage_agricultural_sugar = {
+	texture = "gfx/interface/icons/goods_icons/sugar.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sugar_add = 5 # 200 cost
+			goods_output_exported_goods_add = 7 # 700 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural sugar, 2000 profit.
+pm_export_basic_port_agricultural_sugar = {
+	texture = "gfx/interface/icons/goods_icons/sugar.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_sugar_add = 50 # 2000 cost
+			goods_output_exported_goods_add = 40 # 3000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural sugar, 4300 profit.
+pm_export_industrial_port_agricultural_sugar = {
+	texture = "gfx/interface/icons/goods_icons/sugar.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_sugar_add = 100 # 4000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 90 # 9000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural sugar, 6000 profit.
+pm_export_modern_port_agricultural_sugar = {
+	texture = "gfx/interface/icons/goods_icons/sugar.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_sugar_add = 150 # 6000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 139 # 13900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+pm_export_nothing_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_exported_goods_add = 0 # 0 cost
+		}
+	}
+}
+
+# Agricultural meat, 500 profit.
+pm_export_anchorage_agricultural_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_meat_add = 5 # 200 cost
+			goods_output_exported_goods_add = 7 # 700 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural meat, 2000 profit.
+pm_export_basic_port_agricultural_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_meat_add = 50 # 2000 cost
+			goods_output_exported_goods_add = 40 # 3000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural meat, 4300 profit.
+pm_export_industrial_port_agricultural_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_meat_add = 100 # 4000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 90 # 8000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural meat, 6000 profit.
+pm_export_modern_port_agricultural_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_meat_add = 150 # 6000 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_input_steamers_add = 10 # 700 cost
+			goods_output_exported_goods_add = 139 # 12900 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural basic export, 500 profit.
+pm_export_anchorage_agricultural_basic = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_clippers_add = 5 # 300 cost
+			goods_output_exported_goods_add = 8 # 800 cost
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+}
+
+# Agricultural basic, 2000 profit.
+pm_export_basic_port_agricultural_basic = {
+	texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_clippers_add = 50 # 3000 cost
+			goods_output_exported_goods_add = 40 # 4000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+		
+# Agricultural basic, 4300 profit.
+pm_export_industrial_port_agricultural_basic = {
+	texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_steamers_add = 100 # 7000 cost
+			goods_input_tools_add = 10 # 400 cost
+			goods_input_coal_add = 10 # 300 cost
+			goods_output_exported_goods_add = 110 # 12000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
+
+# Agricultural basic, 6000 profit.
+pm_export_modern_port_agricultural_basic = {
+	texture = "gfx/interface/icons/production_method_icons/modern_port.dds"
+	disallowing_laws = {
+		law_isolationism
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_steamers_add = 150 # 10500 cost
+			goods_input_tools_add = 20 # 800 cost
+			goods_input_oil_add = 10 # 400 cost
+			goods_output_exported_goods_add = 160 # 16000 cost
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
+
+		}
+	}
+}
