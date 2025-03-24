@@ -47,7 +47,7 @@ building_military_export_port = {
 	}
 
 	required_construction = construction_cost_medium
-	ownership_type = other
+	ownership_type = self
 	potential = {
 		is_coastal = yes
 	}
