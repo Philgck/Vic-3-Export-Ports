@@ -89,7 +89,7 @@ pm_export_anchorage_military_rifles = {
 		}
 	}
 }			
-# Military rifles, 1000 profit.
+# Military rifles, 2000 profit.
 pm_export_basic_port_military_rifles = {
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 	
@@ -100,7 +100,7 @@ pm_export_basic_port_military_rifles = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_small_arms_add = 50 # 3000 cost
-			goods_output_exported_goods_add = 40 # 4000 cost
+			goods_output_exported_goods_add = 50 # 5000 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -124,7 +124,7 @@ pm_export_industrial_port_military_rifles = {
 			goods_input_small_arms_add = 100 # 6000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 90 # 9000 cost
+			goods_output_exported_goods_add = 100 # 10000 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -149,7 +149,7 @@ pm_export_modern_port_military_rifles = {
 			goods_input_tools_add = 20 # 800 cost
 			goods_input_oil_add = 10 # 400 cost
 			goods_input_steamers_add = 10 # 700 cost
-			goods_output_exported_goods_add = 159 # 12900 cost
+			goods_output_exported_goods_add = 159 # 15900 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -182,7 +182,7 @@ pm_export_anchorage_military_artillery = {
 		}
 	}
 }			
-# Military Artillery, 1100 profit.
+# Military Artillery, 2100 profit.
 pm_export_basic_port_military_artillery = {
 	texture = "gfx/interface/icons/goods_icons/artillery.dds"
 	unlocking_technologies = {
@@ -192,7 +192,7 @@ pm_export_basic_port_military_artillery = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_artillery_add = 50 # 3500 cost
-			goods_output_exported_goods_add = 46 # 4500 cost
+			goods_output_exported_goods_add = 56 # 4500 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -274,7 +274,7 @@ pm_export_anchorage_military_ammunition = {
 		}
 	}
 }			
-# Military ammunition, 1100 profit.
+# Military ammunition, 2100 profit.
 pm_export_basic_port_military_ammunition = {
 	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
 	unlocking_technologies = {
@@ -284,7 +284,7 @@ pm_export_basic_port_military_ammunition = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_ammunition_add = 50 # 2500 cost
-			goods_output_exported_goods_add = 31 # 3100 cost
+			goods_output_exported_goods_add = 41 # 3100 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -308,7 +308,7 @@ pm_export_industrial_port_military_ammunition = {
 			goods_input_ammunition_add = 100 # 5000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 80 # 9000 cost
+			goods_output_exported_goods_add = 90 # 9000 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -377,7 +377,7 @@ pm_export_basic_port_military_tanks = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_tanks_add = 50 # 4000 cost
-			goods_output_exported_goods_add = 51 # 5100 cost
+			goods_output_exported_goods_add = 61 # 6100 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -388,7 +388,7 @@ pm_export_basic_port_military_tanks = {
 		}
 	}
 }		
-# Military tanks, 3500 profit.
+# Military tanks, 4500 profit.
 pm_export_industrial_port_military_tanks = {
 	texture = "gfx/interface/icons/goods_icons/tanks.dds"
 	unlocking_technologies = {
@@ -400,7 +400,7 @@ pm_export_industrial_port_military_tanks = {
 			goods_input_tanks_add = 100 # 8000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 122 # 12200 cost
+			goods_output_exported_goods_add = 132 # 13200 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -412,7 +412,7 @@ pm_export_industrial_port_military_tanks = {
 		}
 	}
 }
-# Military tanks, 5500 profit.
+# Military tanks, 6500 profit.
 pm_export_modern_port_military_tanks = {
 	texture = "gfx/interface/icons/goods_icons/tanks.dds"
 	unlocking_technologies = {
@@ -425,7 +425,7 @@ pm_export_modern_port_military_tanks = {
 			goods_input_tools_add = 20 # 800 cost
 			goods_input_oil_add = 10 # 400 cost
 			goods_input_steamers_add = 10 # 700 cost
-			goods_output_exported_goods_add = 194 # 19400 cost
+			goods_output_exported_goods_add = 2044 # 19400 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -459,7 +459,7 @@ pm_export_anchorage_military_aeroplanes = {
 		}
 	}
 }			
-# Military aeroplanes, 1100 profit.
+# Military aeroplanes, 2100 profit.
 pm_export_basic_port_military_aeroplanes = {
 	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 	unlocking_technologies = {
@@ -469,7 +469,7 @@ pm_export_basic_port_military_aeroplanes = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_aeroplanes_add = 50 # 4000 cost
-			goods_output_exported_goods_add = 51 # 5100 cost
+			goods_output_exported_goods_add = 61 # 5100 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -480,7 +480,7 @@ pm_export_basic_port_military_aeroplanes = {
 		}
 	}
 }		
-# Military aeroplanes, 3500 profit.
+# Military aeroplanes, 4500 profit.
 pm_export_industrial_port_military_aeroplanes = {
 	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 
@@ -493,7 +493,7 @@ pm_export_industrial_port_military_aeroplanes = {
 			goods_input_aeroplanes_add = 100 # 8000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 122 # 12200 cost
+			goods_output_exported_goods_add = 132 # 12200 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -505,7 +505,7 @@ pm_export_industrial_port_military_aeroplanes = {
 		}
 	}
 }
-# Military aeroplanes, 5500 profit.
+# Military aeroplanes, 6500 profit.
 pm_export_modern_port_military_aeroplanes = {
 	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 	unlocking_technologies = {
@@ -518,7 +518,7 @@ pm_export_modern_port_military_aeroplanes = {
 			goods_input_tools_add = 20 # 800 cost
 			goods_input_oil_add = 10 # 400 cost
 			goods_input_steamers_add = 10 # 700 cost
-			goods_output_exported_goods_add = 194 # 19400 cost
+			goods_output_exported_goods_add = 204 # 19400 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -548,14 +548,14 @@ pm_export_anchorage_military_manowars = {
 		}
 	}
 }			
-# Military Manowars, 1100 profit.
+# Military Manowars, 2100 profit.
 pm_export_basic_port_military_manowars = {
 	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_manowars_add = 50 # 3500 cost
-			goods_output_exported_goods_add = 46 # 4500 cost
+			goods_output_exported_goods_add = 56 # 4500 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -566,7 +566,7 @@ pm_export_basic_port_military_manowars = {
 		}
 	}
 }		
-# Military Manowars, 3600 profit.
+# Military Manowars, 4600 profit.
 pm_export_industrial_port_military_manowars = {
 	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
 
@@ -579,7 +579,7 @@ pm_export_industrial_port_military_manowars = {
 			goods_input_manowars_add = 100 # 7000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 113 # 11300 cost
+			goods_output_exported_goods_add = 123 # 11300 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -591,7 +591,7 @@ pm_export_industrial_port_military_manowars = {
 		}
 	}
 }
-# Military Manowars, 5500 profit.
+# Military Manowars, 6500 profit.
 pm_export_modern_port_military_manowars = {
 	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
 	unlocking_technologies = {
@@ -604,7 +604,7 @@ pm_export_modern_port_military_manowars = {
 			goods_input_tools_add = 20 # 800 cost
 			goods_input_oil_add = 10 # 400 cost
 			goods_input_steamers_add = 10 # 700 cost
-			goods_output_exported_goods_add = 179 # 17900 cost
+			goods_output_exported_goods_add = 189 # 17900 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -637,7 +637,7 @@ pm_export_anchorage_military_ironclads = {
 		}
 	}
 }			
-# Military ironclads, 1100 profit.
+# Military ironclads, 2100 profit.
 pm_export_basic_port_military_ironclads = {
 	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
 	unlocking_technologies = {
@@ -647,7 +647,7 @@ pm_export_basic_port_military_ironclads = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_ironclads_add = 50 # 4000 cost
-			goods_output_exported_goods_add = 51 # 5100 cost
+			goods_output_exported_goods_add = 61 # 5100 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -658,7 +658,7 @@ pm_export_basic_port_military_ironclads = {
 		}
 	}
 }		
-# Military ironclads, 3500 profit.
+# Military ironclads, 4500 profit.
 pm_export_industrial_port_military_ironclads = {
 	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
 
@@ -671,7 +671,7 @@ pm_export_industrial_port_military_ironclads = {
 			goods_input_ironclads_add = 100 # 8000 cost
 			goods_input_tools_add = 10 # 400 cost
 			goods_input_coal_add = 10 # 300 cost
-			goods_output_exported_goods_add = 122 # 12200 cost
+			goods_output_exported_goods_add = 132 # 12200 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -683,7 +683,7 @@ pm_export_industrial_port_military_ironclads = {
 		}
 	}
 }
-# Military ironclads, 5500 profit.
+# Military ironclads, 6500 profit.
 pm_export_modern_port_military_ironclads = {
 	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
 	unlocking_technologies = {
@@ -696,7 +696,7 @@ pm_export_modern_port_military_ironclads = {
 			goods_input_tools_add = 20 # 800 cost
 			goods_input_oil_add = 10 # 400 cost
 			goods_input_steamers_add = 10 # 700 cost
-			goods_output_exported_goods_add = 194 # 19400 cost
+			goods_output_exported_goods_add = 204 # 19400 cost
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
